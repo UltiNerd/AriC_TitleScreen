@@ -179,6 +179,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 91.746
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8eea6f2300b7e8448ae4e6fd56e4c76f, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 9023ffc48c23fbc41aa5e6d170e4f0f2, type: 2}
     - target: {fileID: 919132149155446097, guid: 8eea6f2300b7e8448ae4e6fd56e4c76f, type: 3}
       propertyPath: m_Name
       value: Wires (1)
@@ -198,7 +202,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 135ed182cf818144a82b51670b8c5822, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.58
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 135ed182cf818144a82b51670b8c5822, type: 3}
       propertyPath: m_LocalPosition.y
@@ -210,19 +214,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 135ed182cf818144a82b51670b8c5822, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7046798
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 135ed182cf818144a82b51670b8c5822, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.70467997
+      value: -0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 135ed182cf818144a82b51670b8c5822, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.058534436
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 135ed182cf818144a82b51670b8c5822, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.058534436
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 135ed182cf818144a82b51670b8c5822, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -234,7 +238,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 135ed182cf818144a82b51670b8c5822, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 9.497
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 135ed182cf818144a82b51670b8c5822, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -297,6 +301,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -239.084
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8eea6f2300b7e8448ae4e6fd56e4c76f, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5e7c0b02b58a4042be9e99753c95136, type: 2}
     - target: {fileID: 919132149155446097, guid: 8eea6f2300b7e8448ae4e6fd56e4c76f, type: 3}
       propertyPath: m_Name
       value: Wires (2)
@@ -706,6 +714,67 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1288635517
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 8eea6f2300b7e8448ae4e6fd56e4c76f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.2894892
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8eea6f2300b7e8448ae4e6fd56e4c76f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.255
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8eea6f2300b7e8448ae4e6fd56e4c76f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -7.792
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8eea6f2300b7e8448ae4e6fd56e4c76f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.10295902
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8eea6f2300b7e8448ae4e6fd56e4c76f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.10295902
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8eea6f2300b7e8448ae4e6fd56e4c76f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.6995709
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8eea6f2300b7e8448ae4e6fd56e4c76f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.6995709
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8eea6f2300b7e8448ae4e6fd56e4c76f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -73.255
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8eea6f2300b7e8448ae4e6fd56e4c76f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8eea6f2300b7e8448ae4e6fd56e4c76f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8eea6f2300b7e8448ae4e6fd56e4c76f, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 9023ffc48c23fbc41aa5e6d170e4f0f2, type: 2}
+    - target: {fileID: 919132149155446097, guid: 8eea6f2300b7e8448ae4e6fd56e4c76f, type: 3}
+      propertyPath: m_Name
+      value: Wires (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8eea6f2300b7e8448ae4e6fd56e4c76f, type: 3}
 --- !u!1 &1568366637
 GameObject:
   m_ObjectHideFlags: 0
@@ -5556,7 +5625,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8eea6f2300b7e8448ae4e6fd56e4c76f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.008
+      value: -0.25
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8eea6f2300b7e8448ae4e6fd56e4c76f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5590,9 +5659,78 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8eea6f2300b7e8448ae4e6fd56e4c76f, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 294dcab3843fd8548bd87e00afce5815, type: 2}
     - target: {fileID: 919132149155446097, guid: 8eea6f2300b7e8448ae4e6fd56e4c76f, type: 3}
       propertyPath: m_Name
       value: Wires
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8eea6f2300b7e8448ae4e6fd56e4c76f, type: 3}
+--- !u!1001 &1597953080
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 8eea6f2300b7e8448ae4e6fd56e4c76f, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 209.64
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8eea6f2300b7e8448ae4e6fd56e4c76f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.92339
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8eea6f2300b7e8448ae4e6fd56e4c76f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.084
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8eea6f2300b7e8448ae4e6fd56e4c76f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -7.508
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8eea6f2300b7e8448ae4e6fd56e4c76f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8eea6f2300b7e8448ae4e6fd56e4c76f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8eea6f2300b7e8448ae4e6fd56e4c76f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.70710677
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8eea6f2300b7e8448ae4e6fd56e4c76f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.70710677
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8eea6f2300b7e8448ae4e6fd56e4c76f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8eea6f2300b7e8448ae4e6fd56e4c76f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8eea6f2300b7e8448ae4e6fd56e4c76f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8eea6f2300b7e8448ae4e6fd56e4c76f, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5e7c0b02b58a4042be9e99753c95136, type: 2}
+    - target: {fileID: 919132149155446097, guid: 8eea6f2300b7e8448ae4e6fd56e4c76f, type: 3}
+      propertyPath: m_Name
+      value: Wires (5)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5659,6 +5797,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 3848ff0ed96aa364f894250e294a64ab, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: b2ee60e10208a64469e39352b82a6292, type: 2}
     - target: {fileID: 919132149155446097, guid: 3848ff0ed96aa364f894250e294a64ab, type: 3}
       propertyPath: m_Name
       value: TV
@@ -5716,6 +5858,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -107.4
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8eea6f2300b7e8448ae4e6fd56e4c76f, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 9023ffc48c23fbc41aa5e6d170e4f0f2, type: 2}
     - target: {fileID: 919132149155446097, guid: 8eea6f2300b7e8448ae4e6fd56e4c76f, type: 3}
       propertyPath: m_Name
       value: Wires (3)
@@ -5736,6 +5882,8 @@ SceneRoots:
   - {fileID: 1778234325}
   - {fileID: 193049674}
   - {fileID: 1593910096}
+  - {fileID: 1597953080}
+  - {fileID: 1288635517}
   - {fileID: 79609656}
   - {fileID: 407606961}
   - {fileID: 194846839}
