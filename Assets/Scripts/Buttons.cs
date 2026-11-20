@@ -32,5 +32,7 @@ public class Buttons : MonoBehaviour
     public void Abort()
     {
         Application.Quit();
+        Debug.Log("QuitGame");
+  
     }
 }
