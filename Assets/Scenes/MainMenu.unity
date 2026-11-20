@@ -153,10 +153,10 @@ RectTransform:
   - {fileID: 1683946899}
   m_Father: {fileID: 1019822699}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -12.69, y: -3.36}
-  m_SizeDelta: {x: 160, y: 20}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -12.690002, y: 1.2399902}
+  m_SizeDelta: {x: -1760, y: -1060}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &184004290
 MonoBehaviour:
@@ -552,7 +552,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 1, b: 0.9608457, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -604,15 +604,15 @@ RectTransform:
   m_GameObject: {fileID: 476340163}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.071922, y: 0.071922, z: 0.071922}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1683946899}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -2.9999542, y: 1}
-  m_SizeDelta: {x: 1080, y: 750}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 1.2999878, y: -0.2000122}
+  m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &476340165
 MonoBehaviour:
@@ -627,14 +627,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.19215688, g: 0.17254902, b: 0.20000002, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: bf4cc5cbdd6af13439f79e1d9b514eae, type: 3}
+  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -907,7 +907,7 @@ ParticleSystem:
   m_GameObject: {fileID: 1568366637}
   serializedVersion: 8
   lengthInSec: 10
-  simulationSpeed: 0.09
+  simulationSpeed: 0.05
   stopAction: 0
   cullingMode: 0
   ringBufferMode: 0
@@ -1152,7 +1152,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1
+      scalar: 0.09
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -1476,7 +1476,7 @@ ParticleSystem:
     gravityModifier:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 2
+      scalar: 2.5
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -1533,7 +1533,7 @@ ParticleSystem:
     angle: 25
     length: 5
     boxThickness: {x: 0, y: 0, z: 0}
-    radiusThickness: 1
+    radiusThickness: 0.5
     donutRadius: 0.2
     m_Position: {x: 0, y: 0, z: 0}
     m_Rotation: {x: 0, y: 0, z: 0}
@@ -1616,7 +1616,7 @@ ParticleSystem:
     sphericalDirectionAmount: 0
     randomPositionAmount: 0
     radius:
-      value: 1
+      value: 0.5
       mode: 0
       spread: 0
       speed:
@@ -1841,7 +1841,7 @@ ParticleSystem:
     m_BurstCount: 0
     m_Bursts: []
   SizeModule:
-    enabled: 0
+    enabled: 1
     curve:
       serializedVersion: 2
       minMaxState: 1
@@ -1852,22 +1852,22 @@ ParticleSystem:
         m_Curve:
         - serializedVersion: 3
           time: 0
-          value: 0
-          inSlope: 0
-          outSlope: 1
+          value: 1
+          inSlope: -2
+          outSlope: -2
           tangentMode: 0
           weightedMode: 0
-          inWeight: 0.33333334
-          outWeight: 0.33333334
+          inWeight: 0
+          outWeight: 0
         - serializedVersion: 3
           time: 1
-          value: 1
-          inSlope: 1
+          value: 0
+          inSlope: 0
           outSlope: 0
           tangentMode: 0
           weightedMode: 0
-          inWeight: 0.33333334
-          outWeight: 0.33333334
+          inWeight: 0
+          outWeight: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
@@ -2356,7 +2356,7 @@ ParticleSystem:
     flipU: 0
     flipV: 0
   VelocityModule:
-    enabled: 0
+    enabled: 1
     x:
       serializedVersion: 2
       minMaxState: 0
@@ -2413,7 +2413,7 @@ ParticleSystem:
     y:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0
+      scalar: 2.28
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -3550,7 +3550,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
   NoiseModule:
-    enabled: 0
+    enabled: 1
     strength:
       serializedVersion: 2
       minMaxState: 0
@@ -5630,7 +5630,7 @@ Transform:
   m_GameObject: {fileID: 1568366637}
   serializedVersion: 2
   m_LocalRotation: {x: 0.020088773, y: -0, z: -0, w: 0.9997982}
-  m_LocalPosition: {x: -0.201, y: 2.63, z: -8.69}
+  m_LocalPosition: {x: -0.5, y: 2.09, z: -8.76}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5669,7 +5669,7 @@ RectTransform:
   m_Father: {fileID: 661826416}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -5743,10 +5743,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1019822699}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.5}
-  m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 941, y: 9.11}
-  m_SizeDelta: {x: 2493.4966, y: 1731.5947}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -17.78003, y: 8.72998}
+  m_SizeDelta: {x: 572.4966, y: 651.5947}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1663688949
 MonoBehaviour:
@@ -6390,6 +6390,14 @@ PrefabInstance:
       propertyPath: m_hasFontAssetChanged
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2908171681163866712, guid: 130c0a4e00323e84da3035fe8b9029db, type: 3}
+      propertyPath: buttonClickSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 442e83f54c1d05f4fabadf9ba30bb803, type: 3}
+    - target: {fileID: 2908171681163866712, guid: 130c0a4e00323e84da3035fe8b9029db, type: 3}
+      propertyPath: cameraSoundSource
+      value: 
+      objectReference: {fileID: 7847882644233227876}
     - target: {fileID: 3170113521991444246, guid: 130c0a4e00323e84da3035fe8b9029db, type: 3}
       propertyPath: m_Camera
       value: 
@@ -6480,7 +6488,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5529511095091406438, guid: 130c0a4e00323e84da3035fe8b9029db, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5928969095984899093, guid: 130c0a4e00323e84da3035fe8b9029db, type: 3}
       propertyPath: m_fontSize
@@ -6552,7 +6560,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7220715601098764061, guid: 130c0a4e00323e84da3035fe8b9029db, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7765647012571800922, guid: 130c0a4e00323e84da3035fe8b9029db, type: 3}
       propertyPath: m_Color.b
@@ -6577,6 +6585,10 @@ PrefabInstance:
     - target: {fileID: 7918787285833914072, guid: 130c0a4e00323e84da3035fe8b9029db, type: 3}
       propertyPath: m_SortingOrder
       value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7918787285833914072, guid: 130c0a4e00323e84da3035fe8b9029db, type: 3}
+      propertyPath: m_UpdateRectTransformForStandalone
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8063178907876432924, guid: 130c0a4e00323e84da3035fe8b9029db, type: 3}
       propertyPath: m_Color.b
@@ -7986,7 +7998,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 1
+  m_SortingOrder: -1
   m_TargetDisplay: 0
 --- !u!4 &8539256466547989601
 Transform:
