@@ -1,12 +1,15 @@
 using System;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
+using UnityEngine.UIElements;
 
 public class Buttons : MonoBehaviour
 {
     [SerializeField] GameObject menuCanvas;
     [SerializeField] GameObject settingsCanvas;
 
+ 
     public void StartGame()
     {
         SceneManager.LoadScene("Gameplay");
@@ -35,4 +38,5 @@ public class Buttons : MonoBehaviour
         Debug.Log("QuitGame");
   
     }
+
 }
